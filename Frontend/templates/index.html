@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/13.0.3/math.js"></script>
+
+    <title>Test App</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="left">
+            <div class="heading">Remote Exam Simulator <p class="subheading"></p>
+            </div>
+            <div class="question_area">
+                <div class="topic_area">
+                    <div class="topic1 topic">Physics</div>
+                    <div class="topic2 topic">Chemistry</div>
+                    <div class="topic3 topic">Math</div>
+                    <div class="topic4 topic">Biology</div>
+                    <div class="topic5 topic">Computer</div>
+                </div>
+
+                <div class="question_screen">
+
+                  
+                </div>
+
+                <button class="submit_btn">Submit</button>
+
+
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="calculator_area">
+                <button class="theme_btn"></button>
+                <div class="calculator">
+                    <div class="topDisplay">
+                        <div class="numbers"></div>
+                        <div class="output_screen">
+                            <div class="output"></div>
+                            <div class="backspace">⌫</div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <button class="item1 item">C</button>
+                        <button class="item2 item">(</button>
+                        <button class="item3 item">)</button>
+                        <button class="item4 item">/</button>
+                        <button class="item5 item">7</button>
+                        <button class="item6 item">8</button>
+                        <button class="item7 item">9</button>
+                        <button class="item8 item smItem">*</button>
+                        <button class="item9 item">4</button>
+                        <button class="item10 item">5</button>
+                        <button class="item11 item">6</button>
+                        <button class="item12 item smItem">+/−</button>
+                        <button class="item13 item">1</button>
+                        <button class="item14 item">2</button>
+                        <button class="item15 item">3</button>
+                        <button class="item16 item">%</button>
+                        <button class="item17 item">^</button>
+                        <button class="item18 item">0</button>
+                        <button class="item19 item smItem">.</button>
+                        <button class="item20 item">=</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ai_area">
+                <div class="ai_heading">AI Teacher<button class="stop"></button></div>
+                <div class="screen">
+                    <!-- <div class="user msg">User</div>
+                    <div class="bot msg">Bot</div> -->
+                </div>
+                <div class="chatInput">
+                    <input type="text" name="user_input" id="user_input" placeholder="Chat with your teacher.....">
+                    <button class="sendbtn">Send</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="footer">&copy;Anurupa Karmakar 2024</div>
+    <!-- <script src="script.js"></script> -->
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
