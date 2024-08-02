@@ -1,52 +1,3 @@
-# import os
-# from dotenv import load_dotenv
-# from groq import Groq
-# load_dotenv()
-
-# api_key = os.getenv("GROQ_API_KEY")
-# if not api_key:
-#     raise ValueError("API key for Groq AI is not set in the environment variables.")
-
-# client = Groq()
-
-# def generate_response(prompt):
-#     response = client.chat.completions.create(
-#         model = 'llama-3.1-8b-instant',
-#         messages= [
-#             {
-#             "role": "system",
-#             "content": "Your role is to be an effective and supportive teacher who maintains a strict but polite demeanor. Your primary goal is to assist students in understanding and mastering their studies while upholding high standards of academic excellence."
-#             },
-#             {
-#             "role": "user",
-#             "content": prompt
-#             } 
-#         ],
-        
-#          temperature=1,
-#          max_tokens=500,
-#          top_p=1
-#     )
-
-#     return response.choices[0].message.content
- 
-
-
-
-
-# not_done_yet = True
-# while(not_done_yet):
-#     count = count + 1
-#     user_input = input("Ask the bot: ")
-#     bot_response = generate_response(user_input)
-#     print("Bot said: ",bot_response)
-#     wish = input("Do you want to continue?(yes/no)")
-#     if wish.lower() == 'yes':
-#         not_done_yet = True
-#     else:
-#         not_done_yet = False
-
-
 import os
 from dotenv import load_dotenv
 from groq import Groq
@@ -93,7 +44,7 @@ def generate_response(session_id, prompt):
 
     return ai_message
 
-
+##For testing the application individually
 # print(conversation_history)
 # not_done_yet = True
 # while(not_done_yet):
