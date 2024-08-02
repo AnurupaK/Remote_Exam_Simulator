@@ -83,16 +83,15 @@ Exam_simulator_project/
 ## 🌟 Features
 
 - **Exam Simulator**: Take exams in Physics, Chemistry, Math, Biology, and Computer Science.
-- **Calculator**: A built-in calculator with a **Standard Mode** for performing basic and advanced calculations.
+- **Calculator**: A built-in calculator with a **Standard Mode** for performing basic calculations.
 - **AI Teacher**: Provides feedback and reviews based on exam scores.
 
 ### Calculator - Standard Mode
 
 The calculator in the project features a **Standard Mode** that supports:
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
-- Advanced functions (square roots, exponents, etc.)
-- Memory functions (storing and recalling values)
-- Unit conversions (if applicable)
+- Operations with percentage
+- Dark mode theme integrated
 
 This mode helps students with calculations during exams, facilitating focus on problem-solving.
 
