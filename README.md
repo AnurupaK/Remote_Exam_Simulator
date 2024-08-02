@@ -1,5 +1,5 @@
 
-# 🎓 Exam Simulator Project
+# 🎓 Exam Simulator Project 
 
 Welcome to the Exam Simulator Project! This interactive platform, powered by the Llama 8B model, offers a comprehensive environment for practicing and assessing knowledge across five subjects. With a built-in calculator and an AI teacher to review scores, it's designed to enhance the learning experience for students in Physics, Chemistry, Math, Biology, and Computer Science.
 
