@@ -15,10 +15,10 @@ Exam_simulator_project/
         static/
             style.css
             script.js
-            images/
+            images_files
         templates/
             index.html
-            different_subject_templates/
+            different_subject_templates
     .env
     requirements.txt
 ```
